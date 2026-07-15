@@ -1,0 +1,52 @@
+{
+    "RandomForest": {
+        "mean_cv_score": 0.8730110758999408,
+        "std_cv_score": 0.03398719935467313,
+        "min_cv_score": 0.8159533695305015,
+        "max_cv_score": 0.930379241516966,
+        "timestamp": "2026-07-14 17:24:00"
+    },
+    "KNN": {
+        "mean_cv_score": 0.8922524551663201,
+        "std_cv_score": 0.04980801300933523,
+        "min_cv_score": 0.7999840306611307,
+        "max_cv_score": 0.9546506986027944,
+        "timestamp": "2026-07-14 17:24:01"
+    },
+    "LogisticRegression": {
+        "mean_cv_score": 0.764521739657064,
+        "std_cv_score": 0.06410746883758078,
+        "min_cv_score": 0.6731076333439796,
+        "max_cv_score": 0.81812375249501,
+        "timestamp": "2026-07-14 17:24:03"
+    },
+    "SGD": {
+        "mean_cv_score": 0.7575916292614389,
+        "std_cv_score": 0.06518649696326417,
+        "min_cv_score": 0.6752634940913447,
+        "max_cv_score": 0.8200399201596806,
+        "timestamp": "2026-07-14 17:24:07"
+    },
+    "XGBoost": {
+        "mean_cv_score": 0.7970015663339562,
+        "std_cv_score": 0.05276180181231739,
+        "min_cv_score": 0.7222133503672948,
+        "max_cv_score": 0.8587624750499002,
+        "timestamp": "2026-07-14 17:24:16"
+    },
+    "metadata": {
+        "algorithm": "XGBoost",
+        "version": "1.0.0",
+        "trained_at": "2026-07-14T17:24:17.346413",
+        "dataset_size": 125248,
+        "features": [
+            "longitud",
+            "latitud"
+        ],
+        "target": "nivel_alertas",
+        "cv_folds": 10,
+        "metric": "accuracy",
+        "mean_cv_score": 0.7970015663339562,
+        "std_cv_score": 0.05276180181231739
+    }
+}

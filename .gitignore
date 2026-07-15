@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+
+.idea/
+.vscode/
+
+.env
+
+.pytest_cache/
+
+*.log
+
+cache/
+
+database/df_juntos.csv
+
