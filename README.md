@@ -131,7 +131,7 @@ multiprocessing
 ### DATOS LIMPIOS
 
 <p align="center">
-    <img src="screenshot/clean_data_hitogram.png" width="700">
+    <img src="screenshot/clean_data_histogram.png" width="700">
 </p>
 
 <p align="center">
