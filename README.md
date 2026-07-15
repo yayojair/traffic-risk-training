@@ -221,6 +221,15 @@ Crear un archivo .env con las rutas correspondientes:
     * Integración con MLflow para versionado de modelos.
     * Experimentación con técnicas para tratar el desbalance de clases.
 
+## Dataset
+
+    El dataset original no se incluye en este repositorio debido a su tamaño (≈1.5 GB).
+
+    Durante el entrenamiento se utilizó un conjunto de datos obtenido de Waze correspondiente al año 2019 para la Ciudad de México.
+
+    El archivo procesado generado por el pipeline sí puede encontrarse en:
+
+    database/datos_finales_2019.csv
 
 # Autor
     Edgar Jair Martínez Ruiz
