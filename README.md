@@ -15,6 +15,7 @@ Esto provoca un sesgo importante durante el entrenamiento, ya que el modelo úni
 Para reducir este problema se implementó un proceso que genera puntos adicionales en zonas sin registros, clasificándolos como Nivel Nulo, permitiendo que el modelo también aprenda regiones donde normalmente no existen incidentes.
 
 # Arquitectura
+```text
 Datos Waze
       │
       ▼
@@ -40,6 +41,7 @@ Evaluación
       │
       ▼
 Exportación del modelo
+```
 
 # Tecnologías utilizadas
 Python
@@ -119,35 +121,41 @@ multiprocessing
         MetadataBuilder.json
 
 # Resultados
-    MAP
-    <p align="center">
-        <img src="screenshot/cdmx_alert.png" width="700">
-    </p>
 
-    DATOS LIMPIOS
-    <p >
-        <img src="screenshot/clean_data_hitogram.png" width="700">
-    </p>
-    <p >
-        <img src="screenshot/clean_data_boxplot.png" width="700">
-    </p>
+### MAP
 
-    COMPARACION DE MODELOS
-    <p align="center">
-        <img src="screenshot/evaluation_model.png">
-    </p>
+<p align="center">
+    <img src="screenshot/cdmx_alert.png" width="700">
+</p>
 
-    Además del modelo entrenado se generan dos reportes:
+### DATOS LIMPIOS
 
-    assets/
+<p align="center">
+    <img src="screenshot/clean_data_hitogram.png" width="700">
+</p>
 
-        visualizacion_evaluacion_modelos_2019.pdf
+<p align="center">
+    <img src="screenshot/clean_data_boxplot.png" width="700">
+</p>
 
-        2019_model_evaluation.pdf
+### COMPARACIÓN DE MODELOS
 
-    Estos contienen el análisis exploratorio y la comparación entre modelos.
+<p align="center">
+    <img src="screenshot/evaluation_model.png" width="700">
+</p>
+
+Además del modelo entrenado se generan dos reportes:
+
+```text
+assets/
+├── visualizacion_evaluacion_modelos_2019.pdf
+└── 2019_model_evaluation.pdf
+```
+
+Estos contienen el análisis exploratorio y la comparación entre modelos.
 
 # Estructura 
+```text
 traffic-risk-training/
 │
 ├── .env
@@ -189,6 +197,7 @@ traffic-risk-training/
     ├── pdf_pages.py
     ├── perimeter_cdmx.py
     └── transformer.py
+```
 
 # Instalación
 git clone https://github.com/yayojair/traffic-risk-training.git
